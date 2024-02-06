@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ispit.Konzola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bed3605d08d2d2fca02afc668b45353c144d8e09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6345656f41d25fd5e1cf0d29e49e846e54487ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ispit.Konzola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ispit.Konzola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

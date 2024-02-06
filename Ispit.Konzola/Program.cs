@@ -9,8 +9,7 @@ class Program
         List<Ucenik> ucenici = new List<Ucenik>();
         
         Console.WriteLine("Kreiranje učenika:");
-        Console.WriteLine("");
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < 3; i++)
         {
             var ucenik = new Ucenik();
             Console.WriteLine();
@@ -22,7 +21,7 @@ class Program
             Console.WriteLine("Unesite prezime učenika");
             ucenik.Prezime = Console.ReadLine();
             
-            Console.WriteLine("Unos datuma rođenja učenika u formatu YYYY MM DD");
+            Console.WriteLine("Unos datuma rođenja učenika u formatu YYYY MM DD :");
             string[] datumStr = Console.ReadLine().Split(" ");
             List<int> datum = new List<int>();
             foreach (var el in datumStr)
@@ -37,7 +36,7 @@ class Program
             {
                 try
                 {
-                    Console.WriteLine("Unesite prosjek ocjena u formatu (x,xx): ");
+                    Console.WriteLine("Unesite prosjek ocjena u formatu x.xx : ");
                     ucenik.Prosjek = double.Parse(Console.ReadLine());
                     ispravanUnos = true;
                 }
